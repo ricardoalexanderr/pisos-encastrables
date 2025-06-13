@@ -16,7 +16,7 @@ import VolverInicio from '@/components/VolverInicio'; // ✅ Importado
 export default function Catalogo() {
   const galleryRef = useRef(null);
 
-  const images = Array.from({ length: 8 }, (_, i) => ({
+  const images = Array.from({ length: 10 }, (_, i) => ({
     type: 'image',
     src: `/images/catalogo/imagen${i + 1}.jpg`,
     thumb: `/images/catalogo/imagen${i + 1}.jpg`,
