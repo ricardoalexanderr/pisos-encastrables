@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Variables de colores para modo claro */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+/* Variables para Tailwind custom properties (si usas @theme inline o algún plugin) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Tema oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Estilos globales body */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* Por defecto usas Arial pero podrías usar tus variables */
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Importar estilos LightGallery */
+@import 'lightgallery/css/lightgallery.css';
+@import 'lightgallery/css/lg-thumbnail.css';
+@import 'lightgallery/css/lg-zoom.css';
+@import 'lightgallery/css/lg-video.css';
+
+
+/* Reset básico para eliminar márgenes y padding no deseados */
