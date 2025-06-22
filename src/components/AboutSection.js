@@ -21,7 +21,7 @@ export default function AboutSection() {
               Conoce más
             </a>
         <a
-           href="https://wa.me/5493518000426"
+           href="https://wa.me/5493518754114"
            target="_blank"
            rel="noopener noreferrer"
            className="px-6 py-3 border border-yellow-400 text-yellow-400 rounded-full hover:bg-yellow-400 hover:text-black transition"
