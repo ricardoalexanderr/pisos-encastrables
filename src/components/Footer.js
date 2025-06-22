@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Iconos sociales */}
         <div className="flex space-x-6 text-2xl">
           <a
-            href="https://wa.me/5493518000426"
+            href="https://wa.me/5493518754114"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-400 transition"
