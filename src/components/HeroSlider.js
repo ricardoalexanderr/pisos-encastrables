@@ -35,7 +35,7 @@ export default function HeroSlider() {
    
     { label: 'NOSOTROS', path: '#nosotros' },
     { label: 'PRODUCTOS', path: '#productos' },
-    { label: 'CONTACTOS', path:  'https://wa.me/5493518000426' },
+    { label: 'CONTACTOS', path:  'https://wa.me/5493518754114' },
   ];
 
   return (
